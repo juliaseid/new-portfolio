@@ -1,19 +1,21 @@
 import React from "react";
-// import SiteControl from 'sitecontrol.js';
-import Header from "./Header";
-import Splash from './Splash';
-import About from './About';
-import Blog from './Blog';
-import Portfolio from './Portfolio';
+import Home from './Home';
+// import '../styles/index.css';
+
+
+// import About from './About';
+// import Blog from './Blog';
+// import Projects from './Projects';
+// import Writing from './Writing';
 
 function App(){
   return (
     <React.Fragment>
-      <Splash />
-      <Header />
-      <About />
-      <Portfolio />
-      <Blog />
+      <Home />
+      {/* <About />
+      <Projects/>
+      <Writing />
+      <Blog /> */}
     </React.Fragment>
   );
 }

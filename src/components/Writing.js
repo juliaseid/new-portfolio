@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "./Header";
 
-function About(){
+function Writing(){
   return (
     <React.Fragment>
     <Header></Header>
-    <h2>This will be the about page/resume</h2>
+    <h2>This will be the writing portfolio page</h2>
     </React.Fragment>
   );
 }
 
-export default About;
+export default Writing;
