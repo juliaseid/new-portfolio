@@ -9,3 +9,17 @@ h3, h4 {
 h5, h6, p {
   font-family: 'Raleway', sans-serif;
 } 
+
+body {
+  background-image: url('../img/wideview.jpg');
+}
+
+.float {
+    position: relative;
+    display: block; 
+    max-width: 720px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

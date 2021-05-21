@@ -1,0 +1,21 @@
+.float {
+  background-image: url('../img/squareview.jpg');
+  background-repeat: no-repeat;
+  height: 720px;
+  box-shadow: 18px 18px 18px 18px rgba(0, 0, 0, 0.5);
+  filter: brightness(85%);
+}
+
+.headerBlock {
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+h3 {
+  position: absolute;
+  margin-left: 4rem;
+  margin-top: 36rem;
+  color: #faf0ec;
+}
+
