@@ -1,7 +1,10 @@
 import React from "react";
-import squareview from './../img/squareview.jpg';
 import '../styles/home.css';
 import '../styles/app.css';
+import About from './About';
+import Blog from './Blog';
+import Projects from './Projects';
+import Writing from './Writing';
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 
 
@@ -15,7 +18,15 @@ function Splash(){
           <h1>Julia Seidman</h1>
           <h2>Developer | Writer | Educator</h2>
         </div>
-        <h3>About  |  Development Projects  |  Writing Portfolio  |  Blog</h3>
+        <div id="linkSection">
+          <BrowserRouter>
+            <Route path="/about" component={About} />
+            <Route path="/blog" component={Blog} />
+            <Route path="projects" component={Projects} />
+            <Route path="/writing" component={Writing} />
+            <Link to="/about">About    |</Link><Link to="/projects">    Development Projects    |</Link><Link to="/writing">    Writing Portfolio    |</Link><Link to="/blog">    Blog    </Link>
+          </BrowserRouter>
+        </div>
       </div>
     </React.Fragment>
   );

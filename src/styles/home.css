@@ -12,10 +12,19 @@
   margin-left: 4rem;
 }
 
-h3 {
+#linkSection {
   position: absolute;
-  margin-left: 4rem;
-  margin-top: 36rem;
+  padding-top: 36rem;
+  padding-left: 4rem;
+  font-family: 'Josefin Sans';
+  font-size: 22px;
+}
+
+a:link {
   color: #faf0ec;
+}
+
+a:visited {
+  color: #cf4261;
 }
 
